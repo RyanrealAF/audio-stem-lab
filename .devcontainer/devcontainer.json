@@ -1,0 +1,10 @@
+json
+{
+  "name": "audio-stem-lab",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+    "ghcr.io/devcontainers/features/ffmpeg:1": {}
+  },
+  "postCreateCommand": "pip install --upgrade pip && pip install torch demucs spleeter"
+}
+`
